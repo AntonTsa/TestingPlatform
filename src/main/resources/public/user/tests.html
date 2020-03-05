@@ -2,9 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../css/usr_tests.css">
+    <title>General</title>
 </head>
 <body>
-
+<div class="container">
+    <div class="localization">
+        <p>EN / UA</p>
+    </div>
+    <div id="red">
+        <div class="h1">
+            <h1>QUICK ONLINE TESTING</h1>
+        </div>
+        <div class="general-container">
+            <div class="tabs">
+                <a href="general.html" class="tab-element">General</a>
+                <p class="tab-element">|</p>
+                <a href="tests.html" class="tab-element">Tests</a>
+                <p class="tab-element">|</p>
+                <a href="progress.html" class="tab-element">Progress</a>
+            </div>
+        </div>
+        <div>
+            <!--
+                TODO:
+                    Пейджинация
+                    Контроллер
+                    Локализация
+            -->
+            <div class="table-container">
+                <table class="table">
+                    <tr>
+                        <th class="test-name">Test</th>
+                        <th class="tags">Tags</th>
+                        <th class="total-points">Total</th>
+                        <th class="total-time">Total Time</th>
+                        <th class="pass"></th>
+                    </tr>
+                    <tr>
+                        <td class="test-name">Java Begin</td>
+                        <td class="tags">IT, Java</td>
+                        <td class="total-points">30</td>
+                        <td class="total-time">10:00</td>
+                        <td class="pass">
+                            <button class="pass-btn" type="submit">Pass</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="logout">
+                <button class="logout-btn" type="submit">Log out</button>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

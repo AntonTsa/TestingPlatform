@@ -22,7 +22,7 @@ body {
     font-size: 16px;
 
 }
-a:active {
+.localization a:active {
     font-weight: bold;
 }
 h1 {
@@ -51,7 +51,7 @@ h2 {
     font-size: 18px;
     text-align: center;
 }
-.login-container {
+.reg-container {
     margin-top: 30px;
     float: right;
     width: 50%;
@@ -59,7 +59,7 @@ h2 {
     border: 4px solid #73103a;
     border-radius: 25px;
     padding: 5px;
-    height: 200px;
+    height: 360px;
 }
 h3 {
     margin-top: 10px;
@@ -91,4 +91,14 @@ button {
 button:hover {
     background: white;
     color: gray;
+}
+.reg-container a {
+    color: gray;
+    text-decoration: none;
+}
+h6 {
+    color: gray;
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
 }

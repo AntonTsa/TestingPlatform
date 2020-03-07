@@ -1,69 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="../css/registration.css">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/registration.css" type="text/css"/>
-    <title>Registration</title>
+    <title>Welcome To Online Courses</title>
 </head>
 <body>
-<div class="container">
+<header>
     <div class="localization">
-        <p>EN / UA</p>
+        <p><a class="eng">EN</a> / <a class="ukr">UA</a></p>
     </div>
-    <div>
+</header>
+<section>
+    <div class="info-container">
         <div class="h1">
             <h1>QUICK ONLINE TESTING</h1>
         </div>
-        <div class="general-container">
-            <!--
-                TODO:
-                    Контроллер и JS
-                    Локализация
-            -->
-            <div class="h2">
-                <h2>REGISTRATION</h2>
-            </div>
-            <div class="reg-container">
-                <form class="reg-form" name="reg-form" autocomplete="off" novalidate>
-                    <div class="form-group">
-                        <label for="inputEnglishName">Input English Name</label>
-                        <input type="text"
-                               class="form-control"
-                               id="inputEnglishName"
-                               placeholder="EnglishName"
-                               required>
-                    </div>
-                    <div class="form-group">
-                    <label for="inputUkrainianName">Input Ukrainian Name</label>
-                    <input type="text"
-                           class="form-control"
-                           id="inputUkrainianName"
-                           placeholder="UkrainianName"
-                           required>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail">Input Email</label>
-                        <input type="text"
-                               class="form-control"
-                               id="inputEmail"
-                               placeholder="Email"
-                               required>
-                    </div>
-                    <div class="form-group">
-                        <label for="inputPassword">Input Password</label>
-                        <input type="password"
-                               class="form-control"
-                               id="inputPassword"
-                               placeholder="Password"
-                               required>
-                    </div>
-                    <div class="button-group">
-                        <button type="submit" class="button">Sign up</button>
-                    </div>
-                </form>
-            </div>
+        <div class="text">
+            <h2>A perfect service for people, who want to review their knowledge!</h2>
         </div>
     </div>
-</div>
+    <div class="reg-container">
+        <h3>Sign Up</h3>
+        <form class="reg-form" name="reg-form" autocomplete="off" novalidate>
+            <div class="form-group">
+                <label for="inputEnglishName"></label>
+                <input type="text"
+                       class="form-control"
+                       id="inputEnglishName"
+                       placeholder="English Name"
+                       required>
+            </div>
+            <div class="form-group">
+                <label for="inputUkrainianName"></label>
+                <input type="text"
+                       class="form-control"
+                       id="inputUkrainianName"
+                       placeholder="Ukrainian Name"
+                       required>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail"></label>
+                <input type="text"
+                       class="form-control"
+                       id="inputEmail"
+                       placeholder="Email"
+                       required>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword"></label>
+                <input type="password"
+                       class="form-control"
+                       id="inputPassword"
+                       placeholder="Password"
+                       required>
+            </div>
+            <div class="form-group">
+                <label for="repeatPassword"></label>
+                <input type="password"
+                       class="form-control"
+                       id="repeatPassword"
+                       placeholder="Repeat Password"
+                       required>
+            </div>
+            <div class="button-group">
+                <button type="submit" class="button">Sign up</button>
+            </div>
+        </form>
+        <h6><a href="../main.html">I already have an account</a></h6>
+    </div>
+</section>
+<!--
+    TODO:
+        JS
+        Локализация
+-->
 </body>
 </html>

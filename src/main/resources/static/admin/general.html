@@ -2,39 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../css/admin_general.css">
-    <title>General</title>
+    <link rel="stylesheet" type="text/css" href="../css/general.css">
+    <title>Hello, Admin</title>
 </head>
 <body>
-<div class="container">
-    <div class="localization">
-        <p>EN / UA</p>
-    </div>
-    <div id="red">
-        <div class="h1">
-            <h1>QUICK ONLINE TESTING</h1>
+<header>
+    <div class="header">
+        <div class="localization">
+            <p><a class="eng">EN</a> / <a class="ukr">UA</a></p>
         </div>
-        <div class="general-container">
-            <div class="tabs">
-                <a href="general.html" class="tab-element">General</a>
-                <p class="tab-element">|</p>
-                <a href="students.html" class="tab-element">Students</a>
-                <p class="tab-element">|</p>
-                <a href="mail.html" class="tab-element">Mail</a>
-            </div>
-            <div>
-                <!--
-                    TODO:
-                        Контроллер
-                        Локализация
-                -->
-                <h3>Hello admin</h3>
-                <div class="logout">
-                    <button class="logout-btn" type="submit">Log out</button>
-                </div>
-            </div>
+        <div class="logout">
+            <button class="logout-btn" type="submit">Log out</button>
         </div>
     </div>
-</div>
+    <div class="h1-container">
+        <h1>QUICK ONLINE TESTING</h1>
+    </div>
+    <div class="nav-container">
+        <ul>
+            <li>General</li>
+            <li>Tests</li>
+            <li>Students</li>
+            <li>Messages</li>
+        </ul>
+    </div>
+</header>
+<section>
+    <div class="info-container">
+        <div class="par-container">
+            <h3>Your name:</h3>
+        </div>
+        <div class="btn-container">
+            <button type="submit" class="button">Change</button>
+        </div>
+        <div class="par-container">
+            <h3>Your email:</h3>
+        </div>
+        <div class="btn-container">
+            <button type="submit" class="button">Change</button>
+        </div>
+        <div class="par-container">
+            <h3>Your password:</h3>
+        </div>
+        <div class="btn-container">
+            <button type="submit" class="button">Change</button>
+        </div>
+    </div>
+</section>
 </body>
 </html>
